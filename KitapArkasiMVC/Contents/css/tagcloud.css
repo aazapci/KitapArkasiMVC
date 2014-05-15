@@ -1,0 +1,24 @@
+﻿/* general tags */
+.tinyTag 		{font:  8px/50px Trebuchet, "Trebuchet MS", Verdana, sans-serif; text-transform:capitalize; }	
+.smallestTag 	{font: 10px/50px Trebuchet, "Trebuchet MS", Verdana, sans-serif; text-transform:capitalize;}
+.smallTag 		{font: 16px/50px Trebuchet, "Trebuchet MS", Verdana, sans-serif; text-transform:capitalize;}
+.mediumTag 		{font: 22px/50px Trebuchet, "Trebuchet MS", Verdana, sans-serif; text-transform:capitalize;}
+.largeTag 		{font: 26px/50px Trebuchet, "Trebuchet MS", Verdana, sans-serif; text-transform:capitalize; font-weight: bold;}
+.largestTag 	{font: 28px/50px Trebuchet, "Trebuchet MS", Verdana, sans-serif; text-transform:capitalize; font-weight: bold;} 
+.megaTag 		{font: 29px/50px Trebuchet, "Trebuchet MS", Verdana, sans-serif; text-transform:capitalize; font-weight: bold;} 
+
+/* restricted tags */
+.rtinyTag 		{font:  8px/50px Trebuchet, "Trebuchet MS", Verdana, sans-serif; text-transform:capitalize;}
+.rsmallestTag 	{font: 10px/50px Trebuchet, "Trebuchet MS", Verdana, sans-serif; text-transform:capitalize;}
+.rsmallTag 		{font: 16px/50px Trebuchet, "Trebuchet MS", Verdana, sans-serif; text-transform:capitalize;}
+.rmediumTag 	{font: 22px/50px Trebuchet, "Trebuchet MS", Verdana, sans-serif; text-transform:capitalize;}
+.rlargeTag 		{font: 26px/50px Trebuchet, "Trebuchet MS", Verdana, sans-serif; text-transform:capitalize; font-weight: bold;}
+.rlargestTag 	{font: 28px/50px Trebuchet, "Trebuchet MS", Verdana, sans-serif; text-transform:capitalize; font-weight: bold;} 
+.rmegaTag 		{font: 29px/50px Trebuchet, "Trebuchet MS", Verdana, sans-serif; text-transform:capitalize; font-weight: bold;}
+		
+/* Link Styles */
+a.tag:link, a.tag:active, a.tag:visited {text-decoration: none;	color: #424749;}
+a.tag:hover	    {text-decoration: underline; font-weight: bold; color: #424749;}
+
+a.rtag:link, a.rtag:active, a.rtag:visited	{text-decoration: none;	color: #6b675e;}
+a.rtag:hover	{text-decoration: none;	color: #6b675e;}

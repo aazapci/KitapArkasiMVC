@@ -1,0 +1,154 @@
+﻿/* modified css file tp better page printing */
+/* Body Controls */
+header nav, footer, .sf-menu {display: none;}
+img 			{max-width: 500px;}
+@page 			{margin: 0.5cm;}
+@page :left 	{margin: 0.5cm;}
+@page :right 	{margin: 0.8cm;}
+@page :first 	{margin: 1cm 2cm;} 
+
+body {}
+
+h1 {font: 10px/13px Verdana, Arial, Helvetica, sans-serif; text-align: center; color: #000000; }
+h2 {font: 14px/16px Verdana, Arial, Helvetica, sans-serif; text-align: center; font-weight: bold; color: #000000; }
+h3 {font: 14px/16px Verdana, Arial, Helvetica, sans-serif; text-align: left; font-weight: bold; color: #000000; }
+form {padding: 0; margin: 0;}
+
+/* formatting */
+.clear:after, .wrapper:after {content:''; display:block; height:0; clear:both;}
+.clearer 	 { float: none; clear: both;}
+
+.line {background:url(/site/images/advantages_more.png) center top no-repeat; padding:15px 0; clear:both; position:relative; z-index:20;}
+
+.spacer  	 { height: 10px;}
+.spacer_20   { height: 20px;}
+.spacer_30	 { height: 30px;}
+.spacer_40	 { height: 40px;}
+
+/* layouts' */
+.left_10 	{ width: 10%; float: left; }
+.left_15 	{ width: 15%; float: left; }
+.left_20 	{ width: 20%; float: left; }
+.left_30 	{ width: 30%; float: left; }	
+.left_40 	{ width: 40%; float: left; }
+.left_45 	{ width: 45%; float: left; }	
+.left_50 	{ width: 50%; float: left; }	
+.left_60 	{ width: 60%; float: left; }	
+.left_70 	{ width: 70%; float: left; }	
+.left_80 	{ width: 80%; float: left; }	
+.left_90 	{ width: 90%; float: left; }	
+.left_100 	{ width: 100%; float: left; }	
+.left_auto	{ width: auto; float: left; }
+
+.right_10 	{ width: 10%; float: right; }
+.right_15 	{ width: 15%; float: right; }	
+.right_20 	{ width: 20%; float: right; }	
+.right_30 	{ width: 30%; float: right; }	
+.right_40 	{ width: 40%; float: right; }	
+.right_50 	{ width: 50%; float: right; }	
+.right_60 	{ width: 60%; float: right; }	
+.right_70 	{ width: 70%; float: right; }	
+.right_80 	{ width: 80%; float: right; }	
+.right_90 	{ width: 90%; float: right; }	
+.right_100	{ width: 100%; float: right; }
+
+#nostar, #halfstar, #onestar, #onestarh, #twostar, #twostarh, #threestar, #threestarh, #fourstar, #fourstarh, #fivestar {background-image: url(/site/images/icons/stars.png); background-repeat: no-repeat; width: 78px; height: 14px; overflow: hidden; float: inherit;}
+#nostar				{background-position: 0 0;}
+#halfstar			{background-position: 0 -14px;}
+#onestar			{background-position: 0 -28px;}
+#onestarh			{background-position: 0 -42px;}
+#twostar			{background-position: 0 -56px;}
+#twostarh			{background-position: 0 -70px;}
+#threestar			{background-position: 0 -84px;}
+#threestarh			{background-position: 0 -98px;}
+#fourstar			{background-position: 0 -112px;}
+#fourstarh			{background-position: 0 -126px;}
+#fivestar			{background-position: 0 -140px;}
+
+/* formatting */
+#container 	 { width: 992px; vertical-align: top; background-color: #FFFFFF; }
+#homeblock	 { width: 810px; vertical-align: top; margin:0;}
+#spacer  	 { height: 10px;}
+#leftcol 	 { float: left; width: 170px; vertical-align: top; height:100%; padding: 0; margin: 0;}
+#midblock	 { width: 502px; vertical-align: top; margin-right: 8px;} /*background-color:#fffbe8;*/
+#rightcol	 { float: right; width: 300px; vertical-align: top; height:100%;}
+#wrapper 	 { vertical-align: top; height: 100%;}
+#jackets img { height: 125px; width:85px; margin-bottom:3px; margin-left: 2px; margin-right:2px;}
+.clearer 	 { clear:both;}
+
+/* Enhanced Jackets */
+/* disabled for printing; only jackets displayed */
+.smallcover		{ display:block; position:relative; padding:5px 5px 1px 0px;}
+.smallcover p	{ padding:6px 0px 0px 1px; margin: 0;}
+.smallcover img	{ display:block; border:0; height:125px; width:85px;}
+.smallcover .bg	{}
+
+.bigcover		{ display:block; position:relative; padding:5px 5px 1px 0px; }
+.bigcover p		{ padding:6px 0px 0px 1px; margin: 0;}
+.bigcover img	{ display:block; border:0; height:160px; width:105px;}
+.bigcover .bg	{}
+
+/* Text Controls */
+.excerpthead {font: 15px/20px Verdana, Arial, Helvetica, sans-serif; text-align: center; font-weight: bold;	color: #000000;	}
+.exhead {font: 15px/20px Verdana, Arial, Helvetica, sans-serif;	text-align: center; font-weight: bold;	color: #000000;	}
+.interviewhead {font: 15px/20px Verdana, Arial, Helvetica, sans-serif; text-align: center; font-weight: bold;	color: #000000;	}
+.sectionheads {	font: 15px/30px Verdana, Arial, Helvetica, sans-serif; text-align: left; font-weight: bold;	color: #FFFFFE;	}	
+.sectionheadcenter {font: 15px/30px Verdana, Arial, Helvetica, sans-serif;	text-align: center;	font-weight: bold;	color: #FFFFFE; }	
+	
+.li {font: 12px/12px Verdana, Arial, Helvetica, sans-serif; text-align: justify; color: #000000; }
+.ol {font: 12px/12px Verdana, Arial, Helvetica, sans-serif;	text-align: justify; color: #000000; }
+
+.bodinitext {font: 14px/normal "Bodoni MT";text-align: justify;color: #000000; }
+
+.smallertext {font: 10px/12px Verdana, Arial, Helvetica, sans-serif;text-align: justify;color: #000000;	}
+.smallertextleft {font: 10px/12px Verdana, Arial, Helvetica, sans-serif;text-align: left;color: #000000;}
+.smallertextcenter {font: 10px/12px Verdana, Arial, Helvetica, sans-serif;text-align: center;color: #000000; }
+.redsmallertext {font: 10px/12px Verdana, Arial, Helvetica, sans-serif;	text-align: justify;color: #FF0000;	}
+
+.text		{font: 12px/16px Verdana, Arial, Helvetica, sans-serif; text-align: justify; color: #000000; }
+.textleft  	{font: 12px/16px Verdana, Arial, Helvetica, sans-serif; text-align: left;color: #000000; }
+.textcenter {font: 12px/16px Verdana, Arial, Helvetica, sans-serif;	text-align: center;color: #000000; }
+.textright 	{font: 12px/16px Verdana, Arial, Helvetica, sans-serif; text-align: right;color: #000000;	}
+.graytext  	{font: 12px/16px Verdana, Arial, Helvetica, sans-serif; text-align: justify;color: #999999; }
+.redtext   	{font: 12px/16px Verdana, Arial, Helvetica, sans-serif; text-align: left;color: #FF0000; }
+
+.new 		{font: 11px/13px Verdana, Arial, Helvetica, sans-serif; text-align: left;color: #000000; }
+.newcenter 	{font: 11px/13px Verdana, Arial, Helvetica, sans-serif; text-align: center;color: #000000; }	
+.newright 	{font: 11px/13px Verdana, Arial, Helvetica, sans-serif; text-align: right;color: #000000; }
+.newjust 	{font: 11px/12px Verdana, Arial, Helvetica, sans-serif; text-align: justify;color: #000000; }
+
+.largetextleft      {font: 14px/16px Verdana, Arial, Helvetica, sans-serif; text-align: left;	color: #000000;	}	
+.largetextleftgreen {font: 14px/16px Verdana, Arial, Helvetica, sans-serif;	text-align: left;color: #006600; }		
+	
+.jacketnav {font: 11px/13px Verdana, Arial, Helvetica, sans-serif;text-align: right; color: #000000; }	
+
+.smallcenter  {font: 16px Verdana, Arial, Helvetica, sans-serif; text-align: center; color: #000000; }	
+.staticcenter {font: 11px/12px Verdana, Arial, Helvetica, sans-serif; text-align: center; color: #000000;	}	
+	
+.friend {font: 9px/15px Verdana, Arial, Helvetica, sans-serif;	text-align: left; color: #000000; }	
+	
+.home 		{font: 11px/11px Verdana, Arial, Helvetica, sans-serif; text-align: right; color: #000000; }
+.admin 		{font: 11px/11px Verdana, Arial, Helvetica, sans-serif;	text-align: left; color: #A97003; font-weight: bold; }		
+.copyright 	{font: 10px/15px Verdana, Arial, Helvetica, sans-serif;	text-align: center;	color: #000000;	}	
+.newsletter {font: 10px/13px Verdana, Arial, Helvetica, sans-serif;	text-align: justify; color: #F8FBD9; }	
+
+.bold {font-weight: bold; } 
+
+.blockquote 	 {font: 12px/16px Verdana, Arial, Helvetica, sans-serif; text-align: justify; color: #000000; margin-left: 2em; margin-right: 2em; }	
+.smallblockquote {font: 10px/14px Verdana, Arial, Helvetica, sans-serif; text-align: justify; color: #000000; margin-left: 2em;	margin-right: 2em; }
+
+/* Form Styles */
+/* increased font 1/8 from 10 to 12 */
+input 		{font: 14px "Lucida Sans Unicode", "Lucida Grande", "Courier New", Trebuchet, Verdana, sans-serif; color: #000000; }
+select 		{font: 14px "Lucida Sans Unicode", "Lucida Grande", "Courier New", MS, Trebuchet, Verdana, sans-serif; color: #000000; }
+textarea 	{font: 14px "Lucida Sans Unicode", "Lucida Grande", "Courier New", MS, Trebuchet, Verdana, sans-serif; color: #000000; }
+
+/* Link Styles */
+
+/* shows hyperlinks a:after {content: " (" attr(href) ")";font-size: 80%;} */
+
+a:link 		{ text-decoration: underline; color: #2B3879; }
+a:active	{ text-decoration: underline; color: #2B3879; }
+a:visited	{ text-decoration: underline; color: #2B3879; }
+a:hover		{ text-decoration: underline; color: #5C8831; }
+

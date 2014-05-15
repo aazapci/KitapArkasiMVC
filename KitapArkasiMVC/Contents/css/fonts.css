@@ -1,0 +1,12 @@
+﻿@font-face {
+  font-family: 'Rufina';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Rufina'), local('Rufina-Regular'), url(https://themes.googleusercontent.com/static/fonts/rufina/v2/oV1EDrdD7YRIvPfYejqS0g.woff) format('woff');
+}
+@font-face {
+  font-family: 'Rufina';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Rufina Bold'), local('Rufina-Bold'), url(https://themes.googleusercontent.com/static/fonts/rufina/v2/TIFztvz4W5N8ShXWQhY5Nz8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}

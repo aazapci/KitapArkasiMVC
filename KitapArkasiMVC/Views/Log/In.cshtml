@@ -1,0 +1,284 @@
+﻿@{
+    ViewBag.Title = "In";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<div class="container">
+		<div class="wrapper">
+		<script type="text/javascript">
+<!-- Begin
+var submitcount=0;
+function checkSubmit() 
+	{
+	if (submitcount == 0)
+		{submitcount++;
+		return true;}
+	else
+	{alert("Sorry for the delay...the system is processing your information!");
+	return false;
+	}
+	}
+
+// End -->
+</script>
+
+
+<form action="https://www.bookbrowse.com/join/index.cfm" method="post" name="join" onsubmit="submit.disabled = true; submit.value = 'Processing...'; return true;" id="joinform">
+<!-- join_intro -->
+<div class="join_intro">
+	@*<h2>Books that inspire you. Handpicked.</h2>
+	
+    <h4>Become a Member. Discover Only The Best Books!</h4>*@
+	@*<ul class="clear">
+    	<li><p>$35 for 1-year </p></li>
+        <li><p>or $10 for 3 months</p></li>
+    	<li><p>Only the best books</p></li>
+		<li><p>Professional reviewers</p></li>
+		<li><p>Backstories, excerpts & interviews</p></li>
+		<li><p>Browse by setting, time & theme</p></li>
+        <li><p>Read-alike suggestions by book and author</p></li>
+        <li><p>Reading guides & book club advice</p></li>
+        <li><p>Book discussions </p></li>
+        <li><p>Free books <span>(US only)</span></p></li>
+		
+	</ul>
+	*@
+    <div style="text-align:center">
+    <h3 style="color:#807171">Hemen Üye Ol!</h3>
+    <br /><br />
+
+    <input id="txtKullaniciAdi" type="text" placeholder="Kullanıcı Adınız.."/>
+    <br /> <br />
+    <input id="txtSifre" type="text" placeholder="Şifreniz.." />
+    <br /> <br />
+    <input id="txtSifreTekrar" type="text" placeholder="Şifrenizi Tekrar Giriniz.." />
+    <br /> <br />
+
+    <input id="txtMail" type="text" placeholder="Mail Adresiniz.." />
+     <br /> <br />
+    
+    <input id="uplFoto" type="file" value="Foto Seç" />
+
+      </div>
+    
+	<div class="subscribe_form_wrap">
+	@*	<div class="subscribe_form">
+			
+			<h5>SUBSCRIBE TO BOOKBROWSE NOW</h5>
+			<form action="https://www.bookbrowse.com/join/index.cfm" method="post" name="join" onsubmit="checkSubmit();" id="joinform">
+			<input type="hidden" name="fuseaction" value="page_2">
+			<ul>
+				
+					<li><input id="membership_year" type="radio" name="member_account_type_number" value="12" checked />
+					<label for="membership_year"><span>$35.00 US$</span><br />12 Month Membership</label></li>
+				
+					<li><input id="membership_year" type="radio" name="member_account_type_number" value="13"  />
+					<label for="membership_year"><span>$10.00 US$</span><br />3 Month Membership</label></li>
+				
+				
+				<li><label for="email_address">Your Email Address *</label><input type="text" id="email_address" name="member_email" maxlength="255" value="" /></li>
+				<li><label for="choose_pass">Choose a Password *</label><input type="password" id="choose_pass" name="member_password" maxlength="15" value=""  autocomplete="off" /><p>6 to 15 characters, no spaces</p></li>
+				<li><label for="pass_reminder">Password Reminder</label><input type="password" id="pass_reminder" name="member_pwd_reminder" maxlength="150" value="" /><p>Leave blank to automatically set to the first three letters of your password</p></li>
+				<li><label for="promo_code">Promotion Code</label><input type="text" id="promo_code" name="coupon_code" value="" maxlength="20" /></li>
+				
+				
+					<input type="hidden" name="spamflag" value="0">
+				
+		
+				<li><input type="submit" value="SUBSCRIBE NOW" class="button button_big" /></li>
+			</ul>
+		</div>*@
+	</div>
+</div>	
+<!-- /join_intro -->
+<div class="spacer_10"></div>
+<!-- join_options -->
+<div class="join_options clear">
+	<p>Prefer to speak to us in person? Looking for other options?</p>
+	<ul>
+		
+		<li><a href="javascript:OpenWindow('https://www.bookbrowse.com/more_info/index.cfm/fuseaction/contact','Contact%20Us',430,420)">Order by phone</a></li>
+		<li><a href="http://www.bookbrowse.com/more_info/pay_by_check_form.pdf" target="_blank">Pay by check</a></li>
+		<li><a href="https://www.bookbrowse.com/myaccount/renew">Renew membership</a></li>
+		<li><a href="https://www.bookbrowse.com/gift_certificate/">Give a gift membership </a></li>
+		<li><a href="http://www.bookbrowse.com/lib/">Library subscriptions</a></li>
+		
+	</ul>
+</div>	
+<!-- /join_options -->
+
+<!-- join_read -->
+<div class="left_50 join_read clear">
+	<h3>Discover your next great read here.</h3>
+	<h6>Are you passionate about books? Do you like to spend your reading hours curled up with captivating storytelling and provocative ideas? </h6>
+	<blockquote>
+		<p>BookBrowse gets an 'A' for easy-to-use info and smart advice</p>
+		<p>~ Family Circle</p>
+	</blockquote>
+	<h4>We're readers just like you.</h4>
+	<p>BookBrowse features the kinds of books you can't wait to tell your friends about, providing insightful reviews, stories behind the books, hefty excerpts and recommendations, along with author interviews and book club chats. </p>
+	<p>In addition, our previews of notable books publishing soon will keep you way ahead of the crowd. You'll also have access to handpicked read-alike suggestions for more than 3000 books and 2000 authors.</p>
+	<p>You can also keep track of the books you read and want to read with your personal reading list; and receive free prepublication copies of books through our First Impressions program (USA residents only). Books are subject to availability with most members who take part receiving 3-4 books each year. </p>
+	
+	<div class="money_back">
+		<a href="javascript:OpenWindow('http://www.bookbrowse.com/more_info/index.cfm/fuseaction/guarantee','Money Back Guarantee',600,400)"><img src="/site/images/icons/money_back.png"></a>
+		<p>Money Back Guarantee</p>
+		<p>We offer a money back guarantee if you're not completely satisfied. <a href="/contactus/">Contact us</a> for a refund at anytime. Click the image for details. </p>
+	</div>	
+</div>	
+<!-- /join_read -->
+
+<!-- join_benefits -->
+<div class="right_50 join_benefits_wrap">
+	<div class="join_benefits clear">
+		<h4>Members get more...</h4>
+		<ul>
+			<li>
+				<ul>
+					<li>&nbsp;</li>
+					<li>Free</li>
+					<li>Member</li>
+				</ul>
+			</li>
+			<li>
+				<ul>
+					<li><span>Range of media reviews for each book</span></li>
+					<li><img src="/site/images/icons/check4.png" alt="" /></li>
+					<li><img src="/site/images/icons/check4.png" alt="" /></li>
+				</ul>
+			</li>
+			<li>
+				<ul>
+					<li><span>Excerpts of all featured books</span></li>
+					<li><img src="/site/images/icons/check4.png" alt="" /></li>
+					<li><img src="/site/images/icons/check4.png" alt="" /></li>
+				</ul>
+			</li>
+			<li>
+				<ul>
+					<li><span>Author bios, interviews and pronunciations</span></li>
+					<li><img src="/site/images/icons/check4.png" alt="" /></li>
+					<li><img src="/site/images/icons/check4.png" alt="" /></li>
+				</ul>
+			</li>
+			<li>
+				<ul>
+					<li><span>Browse by genre</span></li>
+					<li><img src="/site/images/icons/check4.png" alt="" /></li>
+					<li><img src="/site/images/icons/check4.png" alt="" /></li>
+				</ul>
+			</li>
+			<li>
+				<ul>
+					<li><span>Book club discussions</span></li>
+					<li><img src="/site/images/icons/check4.png" alt="" /></li>
+					<li><img src="/site/images/icons/check4.png" alt="" /></li>
+				</ul>
+			</li>
+			<li>
+				<ul>
+					<li><span>Book club advice and reading guides</span></li>
+					<li><img src="/site/images/icons/check4.png" alt="" /></li>
+					<li><img src="/site/images/icons/check4.png" alt="" /></li>
+				</ul>
+			</li>
+			<li>
+				<ul>
+					<li><span>BookBrowse reviews and "beyond the book" back-stories</span></li>
+					<li><img src="/site/images/icons/delete.png" alt="" /></li>
+					<li><img src="/site/images/icons/check4.png" alt="" /></li>
+				</ul>
+			</li>
+			<li>
+				<ul>
+					<li><span>Reviews of notable books ahead of publication</span></li>
+					<li><img src="/site/images/icons/delete.png" alt="" /></li>
+					<li><img src="/site/images/icons/check4.png" alt="" /></li>
+				</ul>
+			</li>
+			<li>
+				<ul>
+					<li><span>Free books to read and review (US members)</span></li>
+					<li><img src="/site/images/icons/delete.png" alt="" /></li>
+					<li><img src="/site/images/icons/check4.png" alt="" /></li>
+				</ul>
+			</li>
+			<li>
+				<ul>
+					<li><span>Browse for the best books by time period, setting and theme</span></li>
+					<li><img src="/site/images/icons/delete.png" alt="" /></li>
+					<li><img src="/site/images/icons/check4.png" alt="" /></li>
+				</ul>
+			</li>
+		
+			<li>
+				<ul>
+					<li><span>'Read-alike' suggestions for thousands of books and authors</span></li>
+					<li><img src="/site/images/icons/delete.png" alt="" /></li>
+					<li><img src="/site/images/icons/check4.png" alt="" /></li>
+				</ul>
+			</li>
+			<li>
+				<ul>
+					<li><span>'My Reading List' to catalog and comment on any books you want</span></li>
+					<li><img src="/site/images/icons/delete.png" alt="" /></li>
+					<li><img src="/site/images/icons/check4.png" alt="" /></li>
+				</ul>
+			</li>
+		</ul>	
+	</div>	
+</div>	
+<!-- /join_benefits -->
+
+<!-- join_quotes -->
+<div class="join_quotes clear">
+	<h2>Still Not Sure?</h2>
+	<h4>Read what our members have to <a href="http://www.bookbrowse.com/information/index.cfm/fuseaction/people_say">say</a>!</h4>
+	<ul>
+		<li>
+			<div>
+				<blockquote>
+					<p>Please DO renew my membership. BookBrowse gets 5 stars for being my favorite site. You have everything a book lover could dream of - all in one place. This is a subscription that I can't imagine doing without!</p>
+					<p>~ Joan</p>
+				</blockquote>
+			</div>
+		</li>
+		<li>
+			<div>
+				<blockquote>
+					<p>I just wanted to say thanks again to BookBrowse for providing such a wealth of info on new books. Thank you for helping me to find truly terrific books amidst a sea of literary mediocrity!</p>
+					<p>~ Heather</p>
+				</blockquote>
+			</div>
+		</li>
+	</ul>
+</div>	
+<!-- /join_quotes -->
+
+<!-- join_subscribe -->
+<div class="join_subscribe clear">
+	<p style="margin-left:260px;"><input type="submit" value="Yes! BookBrowse is For Me. Sign Me Up!" class="button button_big" /></p>
+	<div class="clearer spacer"></div>
+	<h4>JOIN NOW TO ENJOY A BOOK LOVER'S FEAST! </h4>
+	<h6>Got questions? <a href="http://www.bookbrowse.com/contactus/">Email us</a> or call (you can also subscribe by phone):</h6>
+	<ul>
+		<li><img src="/site/images/icons/flag_usa.png" alt="" />Call toll free from US &amp; Canada: 1800-745-5306</li>
+		<li><img src="/site/images/icons/flag_uk.png" alt="" />From UK: 020 7096 0431</li>
+		<li><img src="/site/images/icons/earth.png" alt="" />Elsewhere: (+1) 408 867 6500</li>
+	</ul>
+</div>	
+<!-- /join_subscribe -->
+
+</form> <!-- quote_block3 -->
+
+<!-- /quote_block3 -->
+	
+
+<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=bookbrowse">
+	var addthis_config = {"data_track_addressbar":false};
+	var addthis_share = {url_transforms : {clean: true, remove: ['fb_xd_fragment'] } };
+</script>
+		</div>
+	</div>
+	
+
